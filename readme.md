@@ -6,6 +6,9 @@ Koden kan enkelt endres til å benytte seg av enten DHT11 eller DHT22 temperatur
 
 For å ta koden i bruk trenger man å vite ip-adressen til mqtt-serveren, samt brukernavn og passord til denne. Man trenger også å opprette en unik id for brettet som kjører koden. Det kan være en enkel tekststreng som unikt identifiserer brettet på mqtt-serveren.
 
+### Skjema for å koble DHT11/DHT22-sensor til nodemcu-brett
+![https://i.imgur.com/HLMvpEG.png](https://i.imgur.com/HLMvpEG.png)
+
 ##### Typiske feilkilder
 
 - Feil type usb-kabel som ikke kan overføre data. Det finnes ulike typer usb-kabler og noen kan ikke sende data.
